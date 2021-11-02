@@ -9,7 +9,12 @@
       android:icon="@mipmap/ic_launcher"
       android:roundIcon="@mipmap/ic_launcher_round"
       android:allowBackup="false"
-      android:theme="@style/AppTheme">
+      android:theme="@style/AppTheme"
+      android:usesCleartextTraffic="true"
+      >
+      <meta-data
+      android:name="com.google.android.geo.API_KEY"
+      android:value="AIzaSyDFWa-0NcyAk0VaZCRc2v4IcctBcr8g5R4"/>
       <activity
         android:name=".MainActivity"
         android:label="@string/app_name"
